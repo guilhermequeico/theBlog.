@@ -1,0 +1,17 @@
+.navigation nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34.8rem;
+}
+
+.navigation nav ul li {
+    list-style: none;
+}
+
+.navigation nav ul li a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--white);
+    text-decoration: none;
+}
