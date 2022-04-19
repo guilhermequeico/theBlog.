@@ -1,0 +1,18 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9E6DC2;
+    --white: #FFF;
+    --light-purple: #FBF6FF;
+    --green: #4FFF4B;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #000;
+}
