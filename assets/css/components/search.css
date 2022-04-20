@@ -16,7 +16,7 @@
     border-width: 0;
 }
 
-.search input[type=text] {
+.search input[type=search] {
     width: 23rem;
     height: 4.4rem;
     padding: 1.4rem 2.565rem;

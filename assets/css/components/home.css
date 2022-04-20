@@ -1,0 +1,7 @@
+.home {
+   width: 100vw;
+   height: 58.8rem;
+   padding: 6.4rem 0;
+   background-color: var(--purple-bg); 
+   border-bottom: .6rem solid var(--green);
+}
