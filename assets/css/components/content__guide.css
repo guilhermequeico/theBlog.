@@ -1,0 +1,32 @@
+.content__guide {
+    width: 57rem;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__guide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 5.4rem;
+    color: var(--button-bg);
+}
+
+.content__guide p {
+    width: 46.9rem;
+    height: 8.2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    color: var(--light-purple);
+}
+
+.content__guide a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    color: var(--button-bg);
+    text-decoration: none;
+}
