@@ -1,3 +1,8 @@
+.navigation {
+    margin-left: 20.7rem;
+    margin-right: 15.3rem;
+}
+
 .navigation nav ul {
     display: flex;
     justify-content: space-between;
