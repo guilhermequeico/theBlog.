@@ -26,9 +26,14 @@
 }
 
 .content__guide a {
+    width: 11.2rem;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.7rem;
     color: var(--button-bg);
     text-decoration: none;
+    background-image: url(../../img/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 2.4rem;
+    background-position: right center;
 }
