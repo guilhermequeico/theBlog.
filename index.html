@@ -12,16 +12,39 @@
         <link rel="stylesheet" href="./assets/css/base.css">
         <link rel="stylesheet" href="./assets/css/container.css">
         <link rel="stylesheet" href="./assets/css/components/home.css">
-        <!-- <link rel="stylesheet" href="./assets/css/components/header.css"> -->
-        <!-- <link rel="stylesheet" href="./assets/css/components/logo.css"> -->
-        <!-- <link rel="stylesheet" href="./assets/css/components/navigation.css"> -->
-        <!-- <link rel="stylesheet" href="./assets/css/components/search.css"> -->
+        <link rel="stylesheet" href="./assets/css/components/header.css">
+        <link rel="stylesheet" href="./assets/css/components/logo.css">
+        <link rel="stylesheet" href="./assets/css/components/navigation.css">
+        <link rel="stylesheet" href="./assets/css/components/search.css">
         <!-- <link rel="stylesheet" href="./assets/css/components/home-content.css"> -->
         <!-- <link rel="stylesheet" href="./assets/css/components/content__guide.css"> -->
         <!-- <link rel="stylesheet" href="./assets/css/components/content__background.css"> -->
         <!-- <link rel="stylesheet" href="./assets/css/components/main-post.css"> -->
     </head>
     <body>
-        <section class="home"></section>
+        <section class="home">
+            <header class="header container">
+                <div class="logo">
+                    <img src="./assets/img/logo.svg" alt="Logo The Blog.">
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Categorias</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="search">
+                    <form action="#">
+                        <label class="sr-only" for="search">Buscar</label>
+                        <input type="search" id="search" name="search" placeholder="Buscar">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </header>
+        </section>
     </body>
 </html>

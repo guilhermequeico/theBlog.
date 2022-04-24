@@ -21,7 +21,7 @@
     text-decoration: none;
 }
 
-.navigation nav ul li a:hover::before {
+/* .navigation nav ul li a:hover::before {
     content: '';
     display: inline-block;
     width: .2rem;
@@ -34,4 +34,4 @@
 
 .navigation nav ul li a:hover {
     font-weight: 700;
-}
+} */

@@ -1,4 +1,8 @@
+.logo {
+    height: 4.4rem;
+}
+
 .logo img {
     width: 16.114rem;
-    height: 3.654rem;
+    height: 100%;
 }
