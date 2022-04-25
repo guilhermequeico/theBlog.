@@ -1,0 +1,5 @@
+.post-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.4rem 0;
+}
