@@ -1,0 +1,26 @@
+.post__card {
+    width: 56.9rem;
+    height: 54.609rem;
+}
+
+.post__card figcaption {
+    margin: 1.597rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--purple-bg);
+}
+
+.post__card .date{
+    display: block;
+    margin-bottom: 1.597rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.post__card p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000;
+}
