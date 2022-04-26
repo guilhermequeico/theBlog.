@@ -1,0 +1,8 @@
+.divider::after {
+    content: '';
+    display: block;
+    width: 47rem;
+    height: .1rem;
+    margin: 2.4rem 0;
+    background-color: #F2E7FA;
+}
