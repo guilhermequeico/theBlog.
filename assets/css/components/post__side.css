@@ -1,14 +1,14 @@
-.post__side {
+.post {
     width: 47.1rem;
 }
 
-.post__side .date {
+.post .date {
     font-size: 1.6rem;
     font-weight: 400;
     color: #000;
 }
 
-.post__side .title {
+.post .title {
     margin: .8rem 0;
     font-size: 2.4rem;
     font-weight: 700;
@@ -16,7 +16,7 @@
     color: var(--purple-bg);
 }
 
-.post__side .description {
+.post .description {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
