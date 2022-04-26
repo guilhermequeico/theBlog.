@@ -1,0 +1,5 @@
+.cards-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6.4rem;
+}
