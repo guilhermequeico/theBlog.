@@ -20,18 +20,3 @@
     color: var(--white);
     text-decoration: none;
 }
-
-/* .navigation nav ul li a:hover::before {
-    content: '';
-    display: inline-block;
-    width: .2rem;
-    height: 1.7rem;
-    margin-right: .3rem;
-    position: relative;
-    top: .2rem;
-    background-color: var(--green);
-}
-
-.navigation nav ul li a:hover {
-    font-weight: 700;
-} */
