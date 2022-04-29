@@ -20,3 +20,14 @@
     color: var(--white);
     text-decoration: none;
 }
+
+.navigation nav ul li a::before {
+    content: '';
+    display: inline-block;
+    width: .2rem;
+    height: 1.7rem;
+    margin-right: .3rem;
+    position: relative;
+    top: .2rem;
+    background-color: var(--green);
+}
