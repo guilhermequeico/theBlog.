@@ -22,7 +22,8 @@
     text-decoration: none;
 }
 
-.navigation nav ul li a::before {
+.navigation nav ul li a::before,
+.navigation nav ul li a.active::before {
     content: '';
     display: inline-block;
     width: .2rem;
@@ -40,4 +41,13 @@
 .navigation nav ul li a:hover {
     opacity: 1;
     transition: .3s;
+}
+
+.navigation nav ul li a.active::before {
+    height: 1.7rem; 
+}
+
+.navigation nav ul li a.active {
+    font-weight: 700;
+    opacity: 1;
 }

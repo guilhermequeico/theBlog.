@@ -36,7 +36,7 @@
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" class="active">Home</a></li>
                             <li><a href="#">Sobre</a></li>
                             <li><a href="#">Categorias</a></li>
                             <li><a href="#">Contato</a></li>
@@ -122,5 +122,15 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            navigation = document.querySelector('.navigation').querySelectorAll('a');
+            navigation.forEach(element => {
+                element.addEventListener('click', function() {
+                    navigation.forEach(navigation => navigation.classList.remove('active'))
+                    this.classList.add('active')
+                })
+            })
+        </script>
     </body>
 </html>
